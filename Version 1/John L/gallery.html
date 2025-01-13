@@ -7,13 +7,13 @@
 
 <head>
 
-    <title>My Work as a Web Developer</title>
+    <title>Gallery</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="SHS WebDev Version 4.0 - Portfolio">
+    <meta name="description" content="SHS WebDev Version 4.0 - Gallery">
 
     <!-- CSS -->
     <!-- Bootstrap -->
@@ -33,7 +33,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
 
 
-
     <!-- Custom styles for this template -->
     <style type="text/css">
         footer {
@@ -43,22 +42,6 @@
         
         #rainbow {
             width: 100%;
-        }
-
-        #knowledge > * {
-            border: 3px red solid;
-        }
-        
-        p + * {
-            background-color: #FFFF00;
-        }
-
-        div li::marker{
-        color: red;
-        }
-
-        div li::marker{
-        content:"😜 ";
         }
     </style>
 </head>
@@ -76,16 +59,16 @@
                 <ul class="navbar-nav me-auto">
                     <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Edit These Items in your NavBar ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link ">Home</a>
+                        <a href="#" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="display.html" class="nav-link">Display</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link active">Portfolio</a>
+                        <a href="portfolio.html" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="gallery.html" class="nav-link">Gallery</a>
+                        <a href="gallery.html" class="nav-link active">Gallery</a>
                     </li>
                     <li class="nav-item">
                         <a href="mailto:sample@gmail.com?Subject=Hello" class="nav-link disabled" tabindex="-1">Contact</a>
@@ -102,53 +85,74 @@
 
     <main class="container-fluid mt-3">
 
-        <h1 class="text-left my-3 title" tabindex="0">Check out my work!</h1>
+        <h1 class="text-left my-3 title" tabindex="0">Check out my favorite images</h1>
         <!-- Edit this line for the title of your page -->
 
         <!--↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ Put your content below this line ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓-->
-        <h3 id="topHeading">I'm a Web Developer</h3>
-        <div id="knowledge">
-            <li>CSS
-                <ul>
-                    <li>Classes</li>
-                    <li>Selectors</li>
-                    <li>ID's</li>
-                </ul>
-            </li>
-            <li>HTML
-                <ul>
-                    <li>Tables</li>
-                    <li>DIV's</li>
-                    <li>Nav Bar</li>
-                </ul>
-            </li>
+
+        <div id="gallery">
+            <p>Hover over the images to get the answer</p>
+            <div class="container">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="https://static.wikia.nocookie.net/lobotomycorp/images/f/f1/9027A5C1-2DA3-40F1-98A5-D53D327031F8.png" alt="Apocalypse_Bird">
+                        <p class="caption">Abnormality</p>
+                    </div>
+                    <div class="back">
+                        <a href="https://lobotomycorp.fandom.com/wiki/Apocalypse_Bird" target="_blank">
+                            <h2 class="mh-100">Apocalypse Bird</h2>
+                        </a>
+                        <p class="description">Apocalypse Bird is a monstrous Abnormality, which only appears when Punishing Bird, Judgement Bird, and Big Bird are merged together after going through the 'Entrance to the Black Forest'.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="https://static.wikia.nocookie.net/lobotomycorp/images/1/1d/TheSilentOrchestraCloseUp.png" alt="The_Silent_Orchestra">
+                        <p class="caption">Abnormality</p>
+                    </div>
+                    <div class="back">
+                        <a href="https://lobotomycorp.fandom.com/wiki/The_Silent_Orchestra" target="_blank">
+                            <h2>The Silent Orchestra</h2>
+                        </a>
+                        <p class="description">The Silent Orchestra (T-01-31) is an Abnormality in the form of a group of white humanoids, with parts of them composed by musical notation such as eighth notes and various clefs. The conductor, which is the only entity in the Containment Unit, is similar to a limbless mannequin.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="flipper">
+                    <div class="front">
+                        <img src="https://static.wikia.nocookie.net/lobotomycorp/images/1/11/Blue_Star_Crop.png" alt="Blue_Star">
+                        <p class="caption">Abnormality</p>
+                    </div>
+                    <div class="back">
+                        <a href="https://lobotomycorp.fandom.com/wiki/Blue_Star" target="_blank">
+                            <h2 class="">Blue Star</h2>
+                        </a>
+                        <p class="description">Blue Star (O-03-93) is an Abnormality entity that is an amalgamation of gray legs protruding from a glowing heart. The heart has a bright blue border surrounding a pitch-black center. Its form is most likely made from the legs of the human subjects who were dragged into the heart.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <p>
-            These are the things I know in the <strong>WEB DEVELOPMENT</strong> <u>world</u>.
-        </p>
-        <p>
-            I will use my knowledge to create an amazing website for you and your needs.
-        </p>
-        <div>
-            <table id="rainbow">
-                <tr>
-                    <td class="background-red">
-                    </td>
-                    <td class="background-orange">
-                    </td>
-                    <td class="background-yellow">
-                    </td>
-                    <td class="background-green">
-                    </td>
-                    <td class="background-blue">
-                    </td>
-                    <td class="background-indigo">
-                    </td>
-                    <td class="background-violet">
-                    </td>
-                </tr>
-            </table>
+
+        <div class="container">
+            <div class="flipper">
+                <div class="front">
+                    <img src="https://static.wikia.nocookie.net/lobotomycorp/images/f/f2/TheMountainofSmilingBodiesCloseUp.png" alt="Mountain of Smiling Bodies">
+                    <p class="caption">Abnormality</p>
+                </div>
+                <div class="back">
+                    <a href="https://lobotomycorp.fandom.com/wiki/Mountain_of_Smiling_Bodies" target="_blank">
+                        <h2>M.O.S.B</h2>
+                    </a>
+                    <p class="description">Mountain of Smiling Bodies (T-01-75) is an Abnormality taking the form of a big, black, spherical flesh mass, intertwined with different parts and debris such as metal beams and gears. It possesses 2 limbs to support itself, and a big mouth with visible teeth that are mostly covered in blood.</p>
+                </div>
+            </div>
         </div>
+
         <!--↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ Make sure all your content is above this line ↑↑↑↑↑↑↑↑↑-->
     </main>
 
