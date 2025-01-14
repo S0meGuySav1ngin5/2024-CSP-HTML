@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6{
     background-color: yellow;
 }
 
-*{
-    background-color: rgb(154, 252, 255);
+/* *{
+   /* background-color: rgb(154, 252, 255);
     /*font-size: 2.5rem;*/
-}
+/* }
